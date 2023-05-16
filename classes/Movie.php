@@ -1,7 +1,7 @@
 <?php
 
 class Movie{
-    public $title, $votes, $genre, $length, $voteAverage = 0;
+    private $title, $votes, $genre, $length, $voteAverage = 0;
 
     function __construct($title, $votes, $genre, $length){
         $this->title = $title;
